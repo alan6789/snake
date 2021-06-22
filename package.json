@@ -1,0 +1,25 @@
+{
+  "name": "snake",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alan6789/snake.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alan6789/snake/issues"
+  },
+  "homepage": "https://github.com/alan6789/snake#readme",
+  "dependencies": {
+    "typescript": "^4.3.4"
+  }
+}

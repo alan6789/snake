@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "es6",
+        // "outFile": "./dist/index.js",
+    },
+    "include": [
+        "./src/**/*"
+    ]
+}
