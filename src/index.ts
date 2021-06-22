@@ -1,4 +1,5 @@
 import { hi } from './hi'
+import './style/index.scss'
 
 console.log(hi);
 
