@@ -11,7 +11,9 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'), //制定文件输出路径
         filename: 'bundel.js', //打包后的文件名
         environment: {
-            arrowFunction: false
+            arrowFunction: false, // 不使用箭头函数
+            const: false // 不实用const定义变量
+
         }
     },
     module: {
@@ -74,6 +76,9 @@ module.exports = {
     ],
     resolve: {
         extensions: ['.ts', '.js']
-    }
+    },
+    devServer: {
+        open: true,
+    },
 }
 

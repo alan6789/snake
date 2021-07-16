@@ -1,4 +1,58 @@
-body {
-    background-color: #bfa;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main {
+    width: 360px;
+    height: 420px;
+    border: 10px solid #000;
+    background-color: #b7d4a8;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 100px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    .game-area {
+        width: 304px;
+        height: 304px;
+        border: 2px solid #000;
+        margin-top: 20px;
+        position: relative;
+        b,
+        #food {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: #000;
+            border: 1px solid #b7d4a8;
+        }
+        #food {
+            background-color: #b7d4a8;
+            display: flex;
+            flex-wrap: wrap;
+            i {
+                width: 50%;
+                height: 50%;
+                background: #000;
+                transform: rotate(45deg);
+            }
+        }
+    }
+    .game-score {
+        width: 304px;
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: Courier;
+        font-weight: bold;
+        span em {
+            font-style: initial;
+        }
+    }
 }

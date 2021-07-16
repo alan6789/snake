@@ -3,7 +3,6 @@
         "target": "eS6",
         "module": "es6",
         "strict": true,
-        "sourceMap": false,
         "noEmitOnError": true
-     }
+    }
 }
